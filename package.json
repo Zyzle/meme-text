@@ -1,0 +1,19 @@
+{
+	"name": "@zyzle/meme-text",
+	"version": "1.0.0",
+	"description": "converts text to meme format",
+	"main": "index.js",
+	"repository": "git@github.com:Zyzle/meme-text.git",
+	"author": "Colin McCulloch <colin@zyzle.dev>",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"meme",
+		"text",
+		"convert"
+	],
+	"types": "index.d.ts",
+	"scripts": {
+		"make:types": "npx -p typescript tsc *.js --declaration --emitDeclarationOnly --allowJs --outDir ./"
+	}
+}
